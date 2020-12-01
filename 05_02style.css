@@ -1,0 +1,55 @@
+h4 {
+  margin: 0px;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid #cecece;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: .5px 1px 4px rgba(0, 0, 0, .9);
+}
+
+.media {
+  display: flex;
+  width: 100%;
+}
+
+.media-left {
+  margin-right: 1em;
+}
+
+.media-left img {
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.media-content {
+  flex: 1;
+}
+ 
+.media-content-buttons {
+  text-align: right;
+  padding-top: .2em;
+} 
+
+.media-content textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 0;
+  border-color: #cecece;
+  border-radius: 3px;
+}
+

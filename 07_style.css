@@ -1,0 +1,48 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   font-family: sans-serif;
+ }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #00bab3;
+  padding: 1em;
+}
+
+@media(max-width: 767px) {
+  nav {
+    display: block;
+  }
+
+  nav a {
+    display: block;
+  }
+
+  .nav-item {
+        margin: 5px 0;
+  }
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1em;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.nav-item > i {
+  color: #005152;
+  padding-right: 4px;
+}
+
+.nav-left {}
+.nav-center {}
+.nav-right {}
